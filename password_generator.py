@@ -18,7 +18,8 @@ def random_password_generator(length,has_alpha=True,case='m',has_num=True,has_sy
         - length : The length of the password.
         - has_alpha : If the password should contain alphabets. [Default : True]
         - case : The case of the alphabets ('m' : Lowercase + Uppercase, 'u' : Uppercase, 'l' : Lowercase) [Default : 'm']
-        - has_numeric : If the password should contain numbers. [Default : True] - has_symbols : If the password should contain symbols. [Default : True]
+        - has_numeric : If the password should contain numbers. [Default : True] 
+        - has_symbols : If the password should contain symbols. [Default : True]
         - exception : A string of characters that should not be included in the password. [Default : None]
     * Returns:
         - password : The generated based on the conditions provided.
